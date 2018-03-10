@@ -1,0 +1,21 @@
+﻿Installing assembly 'd:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.InstallLog
+   assemblypath = d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.exe
+Installing service Virtue...
+Creating EventLog source Virtue in log Application...
+Rolling back assembly 'd:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.InstallLog
+   assemblypath = d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.exe
+Restoring event log to previous state for source Virtue.
+Uninstalling assembly 'd:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.InstallLog
+   assemblypath = d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.

@@ -1,0 +1,7 @@
+D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\bin\Debug\TestKeyCreation.exe.config
+D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\bin\Debug\TestKeyCreation.exe
+D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\bin\Debug\TestKeyCreation.pdb
+D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\obj\Debug\TestKeyCreation.csproj.CoreCompileInputs.cache
+D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\obj\Debug\TestKeyCreation.exe
+D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\obj\Debug\TestKeyCreation.pdb
+D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\obj\Debug\TestKeyCreation.csprojResolveAssemblyReference.cache

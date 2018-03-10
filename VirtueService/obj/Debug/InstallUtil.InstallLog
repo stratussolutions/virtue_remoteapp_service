@@ -1,0 +1,24 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.exe assembly's progress.
+The file is located at d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: The specified service already exists
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.exe assembly's progress.
+The file is located at d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.exe assembly's progress.
+The file is located at d:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.InstallLog.
+
+The uninstall has completed.

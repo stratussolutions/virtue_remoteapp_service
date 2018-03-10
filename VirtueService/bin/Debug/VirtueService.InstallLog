@@ -1,0 +1,1277 @@
+﻿Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe assembly.
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe assembly.
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Warning: The source Virtue is not registered on the local machine.
+Service Virtue is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Creating EventLog source Virtue in log Application...
+Rolling back assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Restoring event log to previous state for source Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Creating EventLog source Virtue in log Application...
+Rolling back assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Restoring event log to previous state for source Virtue.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Warning: The source Virtue is not registered on the local machine.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Warning: The source Virtue is not registered on the local machine.
+Service Virtue is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Warning: The source Virtue is not registered on the local machine.
+Service Virtue is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Warning: The source Virtue is not registered on the local machine.
+Service Virtue is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Warning: The source Virtue is not registered on the local machine.
+Service Virtue is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Warning: The source Virtue is not registered on the local machine.
+Service Virtue is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Warning: The source Virtue is not registered on the local machine.
+Service Virtue is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Creating EventLog source Virtue in log Application...
+Rolling back assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Restoring event log to previous state for source Virtue.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing assembly 'd:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = d:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = d:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'd:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = d:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = d:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'd:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = d:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = d:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'd:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = d:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = d:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'd:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = d:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = d:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Warning: The source Virtue is not registered on the local machine.
+Service Virtue is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Warning: The source Virtue is not registered on the local machine.
+Service Virtue is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Uninstalling assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Removing EventLog source Virtue.
+Service Virtue is being removed from the system...
+Service Virtue was successfully removed from the system.
+Attempt to stop service Virtue.
+Installing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
+Installing service Virtue...
+Service Virtue has been successfully installed.
+Creating EventLog source Virtue in log Application...
+Committing assembly 'D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.InstallLog
+   assemblypath = D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\VirtueService.exe
