@@ -5,3 +5,10 @@ D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\obj\Debug\TestKeyCre
 D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\obj\Debug\TestKeyCreation.exe
 D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\obj\Debug\TestKeyCreation.pdb
 D:\Users\kamoser\source\repos\VirtueService\TestKeyCreation\obj\Debug\TestKeyCreation.csprojResolveAssemblyReference.cache
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\bin\Debug\TestKeyCreation.exe.config
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\bin\Debug\TestKeyCreation.exe
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\bin\Debug\TestKeyCreation.pdb
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\obj\Debug\TestKeyCreation.csprojResolveAssemblyReference.cache
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\obj\Debug\TestKeyCreation.csproj.CoreCompileInputs.cache
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\obj\Debug\TestKeyCreation.exe
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\obj\Debug\TestKeyCreation.pdb

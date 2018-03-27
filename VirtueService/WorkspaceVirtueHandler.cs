@@ -20,12 +20,33 @@ namespace VirtueService
     {
         public BlockingCollection<VirtueConfigurationEvent> queue = new BlockingCollection<VirtueConfigurationEvent>();
         String username = null;
-        static string serverUrl = "https://virtue.cc.local";
-        static string getPath = "/config";
+        static string serverUrl = "https://ip-172-16-0-36.ec2.internal"; //kops and C&C server, REST endpoint
+        static string getPath = "/remoteapp";
         static string log = @"C:\Users\Public\Documents\virtue.txt";
         static VirtueKeygen key = null;
         string remoteAppSkeleton = null;
+        static string tokenFile = "C:\\virtue_private_token.txt";
+        static string userPrivateToken = null;
         static WebRequestHandler handler = new WebRequestHandler();
+
+        public static void LoadUserToken()
+        {
+            if (File.Exists(tokenFile) && userPrivateToken == null)
+            {
+                userPrivateToken = File.ReadAllText(tokenFile).Trim();
+                WriteLog("Loaded user's token from file. " + Environment.NewLine);
+            }
+
+            if (!File.Exists(tokenFile))
+            {
+                userPrivateToken = Guid.NewGuid().ToString();
+                File.WriteAllText(tokenFile, userPrivateToken);
+            }
+            else if (userPrivateToken == null)
+            {
+                userPrivateToken = File.ReadAllText(tokenFile).Trim();
+            }
+        }
 
         public static void WriteLog(string message)
         {
@@ -80,12 +101,16 @@ namespace VirtueService
 
         public void PollCommandControl()
         {
-            WriteLog("Polling virtue C&C REST endpoint." + Environment.NewLine);
+            WriteLog("Polling virtue C&C REST endpoint to get remoteapp configs." + Environment.NewLine);
             Task<List<String>> conf = GetRemoteAppConfiguration(getPath);
             List<String> powershellScripts = conf.Result;
-            if (powershellScripts.Count > 0)
+            if (powershellScripts != null && powershellScripts.Count > 0)
             {
                 ConfigureRemoteApp(powershellScripts);
+            }
+            else
+            {
+                WriteLog("Did not find any remoteapp configurations..." + Environment.NewLine);
             }
         }
 
@@ -126,6 +151,7 @@ namespace VirtueService
             {
                 using (PowerShell PowerShellInstance = PowerShell.Create())
                 {
+                    WriteLog("Running the following powershell script: " + Environment.NewLine  + psscript + "_________________________" + Environment.NewLine + Environment.NewLine);
                     // use "AddScript" to add the contents of a script file to the end of the execution pipeline.
                     // use "AddCommand" to add individual commands/cmdlets to the end of the execution pipeline.
                     PowerShellInstance.AddScript(psscript);
@@ -147,37 +173,6 @@ namespace VirtueService
             }
         }
 
-        static bool PostUserVirtuePublicKey(string path, string token)
-        {
-             WriteLog("Begin POST user virtue public key" + Environment.NewLine);
-            string pubKey = key.GetPublicKey();
-             WriteLog("public key: " + pubKey + Environment.NewLine);
-
-            HttpClient httpClient = GetHttpClient(serverUrl);
-            
-            try
-            {
-                HttpResponseMessage response = httpClient.PostAsync(path, new FormUrlEncodedContent(new[]
-                {
-                    new KeyValuePair<string, string>("key", pubKey),
-                    new KeyValuePair<string, string>("token", token)
-                })).Result;
-
-                 WriteLog("POST key to C&C REST endpoint got HTTP status code " + response.StatusCode + Environment.NewLine);
-
-                if (response.IsSuccessStatusCode)
-                {
-                    return true;
-                }
-            }
-            catch (Exception e)
-            {
-                 WriteLog(e.Message + Environment.NewLine);
-
-            }
-            return false;
-        }
-
         static HttpClient GetHttpClient(string serverUrl)
         {
           
@@ -196,12 +191,14 @@ namespace VirtueService
             WriteLog("Getting user virtue config from C&C server." + Environment.NewLine);
             String host = System.Net.Dns.GetHostName();
             List<String> conf = null;
+            LoadUserToken();
 
             try
             {
                 HttpResponseMessage response = await httpClient.PostAsync(path, new FormUrlEncodedContent(new[]
                 {
-                    new KeyValuePair<string, string>("fqdn", host)
+                    new KeyValuePair<string, string>("host", host),
+                    new KeyValuePair<string, string>("token", userPrivateToken)
                 }));
 
                 if (response.IsSuccessStatusCode)
@@ -209,9 +206,18 @@ namespace VirtueService
                     string res = await response.Content.ReadAsStringAsync();
                     JavaScriptSerializer JSserializer = new JavaScriptSerializer();
                     var virtues = JSserializer.Deserialize<String[]>(res);
-                    conf = virtues.ToList<String>();
+                    if (virtues != null)
+                    {
+                        conf = virtues.ToList<String>();
+                        WriteLog("Polling GetRemoteAppConfiguration: found virtues to configure." + Environment.NewLine);
+                    }
+                    else
+                    {
+                        WriteLog("Polling GetRemoteAppConfiguration: no virtues to configure." + Environment.NewLine);
+                    }
+                    
                 }
-                 WriteLog("Polling virtue C&C REST endpoint got HTTP status code " + response.StatusCode + Environment.NewLine);
+                 WriteLog("Polling GetRemoteAppConfiguration C&C REST endpoint got HTTP status code " + response.StatusCode + Environment.NewLine);
             }
             catch (Exception e)
             {

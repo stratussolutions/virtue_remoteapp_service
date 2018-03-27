@@ -9,3 +9,14 @@ D:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueServic
 D:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.pdb
 D:\Users\kamoser\source\repos\VirtueService\VirtueService\bin\Debug\System.Management.Automation.dll
 D:\Users\kamoser\source\repos\VirtueService\VirtueService\obj\Debug\VirtueService.csprojResolveAssemblyReference.cache
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Debug\VirtueService.exe.config
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Debug\VirtueService.exe
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Debug\VirtueService.pdb
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Debug\System.Management.Automation.dll
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.csprojResolveAssemblyReference.cache
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.ProjectInstaller.resources
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.Virtue.resources
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.csproj.GenerateResource.Cache
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.csproj.CoreCompileInputs.cache
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.exe
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.pdb
