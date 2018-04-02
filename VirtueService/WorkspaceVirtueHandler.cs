@@ -169,7 +169,16 @@ namespace VirtueService
                              WriteLog("Configured remoteapp got result: " + outputItem.ToString() + Environment.NewLine);
                         }
                     }
+
+                    PSDataCollection<ErrorRecord> errs = PowerShellInstance.Streams.Error;
+                    foreach (ErrorRecord currErr in errs)
+                    {
+                        WriteLog("Powershell error: " + currErr.ToString() + Environment.NewLine);
+                        WriteLog("Powershell error msg: " + currErr.ErrorDetails.Message + Environment.NewLine);
+                        WriteLog("Powershell error trace: " + currErr.ScriptStackTrace + Environment.NewLine);
+                    }
                 }
+                
             }
         }
 
