@@ -149,35 +149,37 @@ namespace VirtueService
             WriteLog("Configuring remoteapp host." + Environment.NewLine);
             foreach (String psscript in scripts)
             {
-                using (PowerShell PowerShellInstance = PowerShell.Create())
+                try
                 {
-                    WriteLog("Running the following powershell script: " + Environment.NewLine  + psscript + "_________________________" + Environment.NewLine + Environment.NewLine);
-                    // use "AddScript" to add the contents of a script file to the end of the execution pipeline.
-                    // use "AddCommand" to add individual commands/cmdlets to the end of the execution pipeline.
-                    PowerShellInstance.AddScript(psscript);
-
-                    // invoke execution on the pipeline (collecting output)
-                    Collection<PSObject> PSOutput = PowerShellInstance.Invoke();
-
-                    // loop through each output object item
-                    foreach (PSObject outputItem in PSOutput)
+                    using (PowerShell PowerShellInstance = PowerShell.Create())
                     {
-                        // if null object was dumped to the pipeline during the script then a null
-                        // object may be present here. check for null to prevent potential NRE.
-                        if (outputItem != null)
+                        WriteLog("Running the following powershell script: " + Environment.NewLine + psscript + "_________________________" + Environment.NewLine + Environment.NewLine);
+                        // use "AddScript" to add the contents of a script file to the end of the execution pipeline.
+                        // use "AddCommand" to add individual commands/cmdlets to the end of the execution pipeline.
+                        PowerShellInstance.AddScript(psscript);
+
+                        // invoke execution on the pipeline (collecting output)
+                        Collection<PSObject> PSOutput = PowerShellInstance.Invoke();
+
+                        // loop through each output object item
+                        foreach (PSObject outputItem in PSOutput)
                         {
-                             WriteLog("Configured remoteapp got result: " + outputItem.ToString() + Environment.NewLine);
+                            // if null object was dumped to the pipeline during the script then a null
+                            // object may be present here. check for null to prevent potential NRE.
+                            if (outputItem != null)
+                            {
+                                WriteLog("Configured remoteapp got result: " + outputItem.ToString() + Environment.NewLine);
+                            }
+                        }
+
+                        PSDataCollection<ErrorRecord> errs = PowerShellInstance.Streams.Error;
+                        foreach (ErrorRecord currErr in errs)
+                        {
+                            if (currErr != null)
+                                WriteLog("Powershell error: " + currErr.ToString() + Environment.NewLine);
                         }
                     }
-
-                    PSDataCollection<ErrorRecord> errs = PowerShellInstance.Streams.Error;
-                    foreach (ErrorRecord currErr in errs)
-                    {
-                        WriteLog("Powershell error: " + currErr.ToString() + Environment.NewLine);
-                        WriteLog("Powershell error msg: " + currErr.ErrorDetails.Message + Environment.NewLine);
-                        WriteLog("Powershell error trace: " + currErr.ScriptStackTrace + Environment.NewLine);
-                    }
-                }
+                } catch (Exception e) { }
                 
             }
         }
