@@ -10,3 +10,4 @@ D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\R
 D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Release\VirtueService.csproj.CoreCompileInputs.cache
 D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Release\VirtueService.exe
 D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Release\VirtueService.pdb
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Release\VirtueService.csprojResolveAssemblyReference.cache
