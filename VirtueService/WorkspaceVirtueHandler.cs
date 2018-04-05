@@ -188,7 +188,7 @@ namespace VirtueService
                     if (scripts.IndexOf(psscript) == scripts.Count - 1)
                     {
                         WriteLog("attempting impersonation of the virtue domain administrator account.");
-                        using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.NewCredentials))
+                        using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.Network))
                         {
                             WriteLog("Impersonated the virtue domain administrator account.");
                             runPS(psscript);
