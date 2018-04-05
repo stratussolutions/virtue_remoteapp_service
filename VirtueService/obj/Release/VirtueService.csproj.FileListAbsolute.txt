@@ -1,0 +1,12 @@
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Release\VirtueService.exe.config
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Release\VirtueService.exe
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Release\VirtueService.pdb
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Release\SimpleImpersonation.dll
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Release\System.Management.Automation.dll
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Release\SimpleImpersonation.xml
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Release\VirtueService.ProjectInstaller.resources
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Release\VirtueService.Virtue.resources
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Release\VirtueService.csproj.GenerateResource.Cache
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Release\VirtueService.csproj.CoreCompileInputs.cache
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Release\VirtueService.exe
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Release\VirtueService.pdb

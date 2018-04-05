@@ -107,6 +107,7 @@ namespace VirtueService
             List<String> powershellScripts = conf.Result;
             if (powershellScripts != null && powershellScripts.Count > 0)
             {
+                WriteLog("Configuring remoteapp host. About to call ConfigureRemoteApp()..." + Environment.NewLine);
                 ConfigureRemoteApp(powershellScripts);
             }
             else
@@ -147,7 +148,7 @@ namespace VirtueService
 
         static void ConfigureRemoteApp(List<String> scripts)
         {
-            WriteLog("Configuring remoteapp host." + Environment.NewLine);
+            WriteLog("called configureremoteapp." + Environment.NewLine);
             foreach (String psscript in scripts)
             {
                 try
