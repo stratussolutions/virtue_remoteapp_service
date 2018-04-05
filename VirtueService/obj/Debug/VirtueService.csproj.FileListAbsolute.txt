@@ -19,3 +19,6 @@ D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\D
 D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.csproj.CoreCompileInputs.cache
 D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.exe
 D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.pdb
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Debug\SimpleImpersonation.dll
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\bin\Debug\SimpleImpersonation.xml
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\VirtueService\obj\Debug\VirtueService.csprojResolveAssemblyReference.cache
