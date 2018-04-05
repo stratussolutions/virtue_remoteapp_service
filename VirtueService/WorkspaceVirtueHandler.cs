@@ -154,8 +154,8 @@ namespace VirtueService
                 try
                 {
                     WriteLog("attempting impersonation of the virtue domain administrator account.");
-                    //using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.NewCredentials))
-                    //{
+                    using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.NewCredentials))
+                    {
                         WriteLog("Impersonated the virtue domain administrator account.");
 
                         using (PowerShell PowerShellInstance = PowerShell.Create())
@@ -186,7 +186,7 @@ namespace VirtueService
                                     WriteLog("Powershell error: " + currErr.ToString() + Environment.NewLine);
                             }
                         }
-                    //}
+                    }
                 } catch (Exception e) {
                     WriteLog("Failed to impersonate the virtue domain administrator account.");
                     WriteLog("error: " + e.ToString() + Environment.NewLine);
