@@ -146,6 +146,38 @@ namespace VirtueService
             return null;
         }
 
+        static void runPS(string psscript)
+        {
+            using (PowerShell PowerShellInstance = PowerShell.Create())
+            {
+                WriteLog("Running the following powershell script: " + Environment.NewLine + psscript + "_________________________" + Environment.NewLine + Environment.NewLine);
+                // use "AddScript" to add the contents of a script file to the end of the execution pipeline.
+                // use "AddCommand" to add individual commands/cmdlets to the end of the execution pipeline.
+                PowerShellInstance.AddScript(psscript);
+
+                // invoke execution on the pipeline (collecting output)
+                Collection<PSObject> PSOutput = PowerShellInstance.Invoke();
+
+                // loop through each output object item
+                foreach (PSObject outputItem in PSOutput)
+                {
+                    // if null object was dumped to the pipeline during the script then a null
+                    // object may be present here. check for null to prevent potential NRE.
+                    if (outputItem != null)
+                    {
+                        WriteLog("Configured remoteapp got result: " + outputItem.ToString() + Environment.NewLine);
+                    }
+                }
+
+                PSDataCollection<ErrorRecord> errs = PowerShellInstance.Streams.Error;
+                foreach (ErrorRecord currErr in errs)
+                {
+                    if (currErr != null)
+                        WriteLog("Powershell error: " + currErr.ToString() + Environment.NewLine);
+                }
+            }
+        }
+
         static void ConfigureRemoteApp(List<String> scripts)
         {
             WriteLog("called configureremoteapp." + Environment.NewLine);
@@ -153,39 +185,19 @@ namespace VirtueService
             {
                 try
                 {
-                    WriteLog("attempting impersonation of the virtue domain administrator account.");
-                    using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.NewCredentials))
+                    if (scripts.IndexOf(psscript) == scripts.Count - 1)
                     {
-                        WriteLog("Impersonated the virtue domain administrator account.");
-
-                        using (PowerShell PowerShellInstance = PowerShell.Create())
+                        WriteLog("attempting impersonation of the virtue domain administrator account.");
+                        using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.NewCredentials))
                         {
-                            WriteLog("Running the following powershell script: " + Environment.NewLine + psscript + "_________________________" + Environment.NewLine + Environment.NewLine);
-                            // use "AddScript" to add the contents of a script file to the end of the execution pipeline.
-                            // use "AddCommand" to add individual commands/cmdlets to the end of the execution pipeline.
-                            PowerShellInstance.AddScript(psscript);
-
-                            // invoke execution on the pipeline (collecting output)
-                            Collection<PSObject> PSOutput = PowerShellInstance.Invoke();
-
-                            // loop through each output object item
-                            foreach (PSObject outputItem in PSOutput)
-                            {
-                                // if null object was dumped to the pipeline during the script then a null
-                                // object may be present here. check for null to prevent potential NRE.
-                                if (outputItem != null)
-                                {
-                                    WriteLog("Configured remoteapp got result: " + outputItem.ToString() + Environment.NewLine);
-                                }
-                            }
-
-                            PSDataCollection<ErrorRecord> errs = PowerShellInstance.Streams.Error;
-                            foreach (ErrorRecord currErr in errs)
-                            {
-                                if (currErr != null)
-                                    WriteLog("Powershell error: " + currErr.ToString() + Environment.NewLine);
-                            }
+                            WriteLog("Impersonated the virtue domain administrator account.");
+                            runPS(psscript);
                         }
+                    }
+                    else
+                    {
+                        WriteLog("Running script without impersonation...");
+                        runPS(psscript);
                     }
                 } catch (Exception e) {
                     WriteLog("Failed to impersonate the virtue domain administrator account.");
