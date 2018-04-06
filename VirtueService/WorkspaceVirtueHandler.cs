@@ -183,6 +183,7 @@ namespace VirtueService
             WriteLog("called configureremoteapp." + Environment.NewLine);
             foreach (String psscript in scripts)
             {
+                Thread.Sleep(10000); //For some reason the powershell scripts output erratically for RDS deployments...
                 try
                 {
                     if (scripts.IndexOf(psscript) == scripts.Count - 1)
