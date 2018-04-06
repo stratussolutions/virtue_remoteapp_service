@@ -93,12 +93,17 @@ namespace VirtueService
             handler.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
             remoteAppSkeleton = GetPowershellSkeleton();
 
-            string psscript = @"New-RDSessionCollection -PersonalUnmanaged -CollectionName ""mosertestIE"" -SessionHost @(""EC2AMAZ-986SD7H.virtue.local"") -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local""";
-            runPS(psscript);
-            psscript = @"Set-RDPersonalSessionDesktopAssignment -CollectionName ""mosertestIE"" -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local"" -User ""virtue.local\kamoser"" -Name ""EC2AMAZ-986SD7H.virtue.local""";
-            runPS(psscript);
-            psscript = @"New-RDRemoteApp -CollectionName ""mosertestIE"" -DisplayName ""InternetExplorer"" -FilePath ""c:/wmp/wmplayer.exe"" -UserGroups ""virtue.local\kamoser""";
-            runPS(psscript);
+            using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.Network))
+            {
+                WriteLog("Impersonated the virtue domain administrator account.");
+                string psscript = @"New-RDSessionCollection -PersonalUnmanaged -CollectionName ""mosertestIE"" -SessionHost @(""EC2AMAZ-986SD7H.virtue.local"") -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local""";
+                runPS(psscript);
+                psscript = @"Set-RDPersonalSessionDesktopAssignment -CollectionName ""mosertestIE"" -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local"" -User ""virtue.local\kamoser"" -Name ""EC2AMAZ-986SD7H.virtue.local""";
+                runPS(psscript);
+                psscript = @"New-RDRemoteApp -CollectionName ""mosertestIE"" -DisplayName ""InternetExplorer"" -FilePath ""c:/wmp/wmplayer.exe"" -UserGroups ""virtue.local\kamoser""";
+                runPS(psscript);
+                WriteLog("Ending impersonation of the virtue domain administrator account.");
+            }
 
             while (true)
             {
