@@ -95,7 +95,9 @@ namespace VirtueService
 
             
             //WriteLog("Impersonated the virtue domain administrator account.");
-            string psscript = @"New-RDSessionCollection -PersonalUnmanaged -CollectionName ""mosertestIE"" -SessionHost @(""EC2AMAZ-986SD7H.virtue.local"") -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local""";
+            string psscript = @"New-RDSessionCollection -PersonalUnmanaged -CollectionName ""mosertestIE"" -SessionHost """" -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local""";
+            runPS(psscript);
+            psscript = @"Add-RDSessionHost -CollectionName ""mosertestIE"" -SessionHost ""EC2AMAZ-986SD7H.virtue.local""";
             runPS(psscript);
             psscript = @"Set-RDPersonalSessionDesktopAssignment -CollectionName ""mosertestIE"" -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local"" -User ""virtue.local\kamoser"" -Name ""EC2AMAZ-986SD7H.virtue.local""";
             runPS(psscript);
