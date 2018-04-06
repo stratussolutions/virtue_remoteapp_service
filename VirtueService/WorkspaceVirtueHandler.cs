@@ -95,14 +95,14 @@ namespace VirtueService
 
             
             //WriteLog("Impersonated the virtue domain administrator account.");
-            string psscript = @"New-RDSessionCollection -PersonalUnmanaged -CollectionName ""mosertestIE"" -SessionHost ""EC2AMAZ-986SD7H.virtue.local"" -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local""";
-            runPS(psscript);
-            psscript = @"Add-RDSessionHost -CollectionName ""mosertestIE"" -SessionHost ""EC2AMAZ-986SD7H.virtue.local""";
-            runPS(psscript);
-            psscript = @"Set-RDPersonalSessionDesktopAssignment -CollectionName ""mosertestIE"" -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local"" -User ""virtue.local\kamoser"" -Name ""EC2AMAZ-986SD7H.virtue.local""";
-            runPS(psscript);
-            psscript = @"New-RDRemoteApp -CollectionName ""mosertestIE"" -DisplayName ""InternetExplorer"" -FilePath ""c:/wmp/wmplayer.exe"" -UserGroups ""virtue.local\kamoser""";
-            runPS(psscript);
+            //string psscript = @"New-RDSessionCollection -PersonalUnmanaged -CollectionName ""mosertestIE"" -SessionHost ""EC2AMAZ-986SD7H.virtue.local"" -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local""";
+            //runPS(psscript);
+            //psscript = @"Add-RDSessionHost -CollectionName ""mosertestIE"" -SessionHost ""EC2AMAZ-986SD7H.virtue.local""";
+            //runPS(psscript);
+            //psscript = @"Set-RDPersonalSessionDesktopAssignment -CollectionName ""mosertestIE"" -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local"" -User ""virtue.local\kamoser"" -Name ""EC2AMAZ-986SD7H.virtue.local""";
+            //runPS(psscript);
+            //psscript = @"New-RDRemoteApp -CollectionName ""mosertestIE"" -DisplayName ""InternetExplorer"" -FilePath ""c:/wmp/wmplayer.exe"" -UserGroups ""virtue.local\kamoser""";
+            //runPS(psscript);
             //WriteLog("Ending impersonation of the virtue domain administrator account.");
             
 
@@ -199,20 +199,20 @@ namespace VirtueService
                 Thread.Sleep(10000); //For some reason the powershell scripts output erratically for RDS deployments...
                 try
                 {
-                    if (scripts.IndexOf(psscript) == scripts.Count - 1)
-                    {
-                        WriteLog("attempting impersonation of the virtue domain administrator account.");
-                        using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.Network))
-                        {
-                            WriteLog("Impersonated the virtue domain administrator account.");
-                            runPS(psscript);
-                        }
-                    }
-                    else
-                    {
-                        WriteLog("Running script without impersonation...");
+                    //if (scripts.IndexOf(psscript) == scripts.Count - 1)
+                    //{
+                    //WriteLog("attempting impersonation of the virtue domain administrator account.");
+                    //using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.Network))
+                   // {
+                       // WriteLog("Impersonated the virtue domain administrator account.");
+                     //   runPS(psscript);
+                    //}
+                    //}
+                    //else
+                    //{
+                        //WriteLog("Running script without impersonation...");
                         runPS(psscript);
-                    }
+                    //}
                 } catch (Exception e) {
                     WriteLog("Failed to impersonate the virtue domain administrator account.");
                     WriteLog("error: " + e.ToString() + Environment.NewLine);

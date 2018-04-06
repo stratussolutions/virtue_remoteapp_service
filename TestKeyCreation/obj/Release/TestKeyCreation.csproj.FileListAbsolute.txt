@@ -4,3 +4,4 @@ D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\bin
 D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\obj\Release\TestKeyCreation.csproj.CoreCompileInputs.cache
 D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\obj\Release\TestKeyCreation.exe
 D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\obj\Release\TestKeyCreation.pdb
+D:\Users\kamoser\Documents\Projects\virtue_remoteapp_service\TestKeyCreation\obj\Release\TestKeyCreation.csprojResolveAssemblyReference.cache
