@@ -93,7 +93,7 @@ namespace VirtueService
             handler.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
             remoteAppSkeleton = GetPowershellSkeleton();
 
-            using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.Network))
+            using (Impersonation.LogonUser("VIRTUE", "Administrator", "DoingItL1v3", LogonType.Service))
             {
                 WriteLog("Impersonated the virtue domain administrator account.");
                 string psscript = @"New-RDSessionCollection -PersonalUnmanaged -CollectionName ""mosertestIE"" -SessionHost @(""EC2AMAZ-986SD7H.virtue.local"") -ConnectionBroker ""EC2AMAZ-O3KO101.virtue.local""";
