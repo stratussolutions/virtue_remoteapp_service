@@ -21,7 +21,7 @@ namespace VirtueService
     {
         public BlockingCollection<VirtueConfigurationEvent> queue = new BlockingCollection<VirtueConfigurationEvent>();
         String username = null;
-        static string serverUrl = "https://ip-172-16-0-36.ec2.internal"; //kops and C&C server, REST endpoint
+        static string serverUrl = "https://cc.prod.virtue.com"; //kops and C&C server, REST endpoint
         static string getPath = "/remoteapp";
         static string log = @"C:\Users\Public\Documents\virtue.txt";
         static VirtueKeygen key = null;
